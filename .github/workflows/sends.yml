@@ -27,7 +27,7 @@ jobs:
         uses: benc-uk/workflow-dispatch@v1
         with:
           # Name or ID of workflow to run
-          workflow: main.yml
+          workflow: "Main"
           # GitHub token with repo write access, can NOT use secrets.GITHUB_TOKEN, see readme
           token: ${{ secrets.TARATYN_TC_DISPATCH_WORKFLOW_PAT }}
           # The reference of the workflow run. The reference can be a branch, tag, or a commit SHA
